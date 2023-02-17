@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # Create a list of services using Python - S3, EC2, DynamoDB, Lambda, Cloudwatch
 awssvclist = []
 print(f'current aws svc list {awssvclist}')
