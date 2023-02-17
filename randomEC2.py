@@ -22,12 +22,13 @@ else:
 ec2num = int(input("how many ec2 names would you like to be generated? "))
 
 if ec2num > 0:
-    print ("you have selected " + str(ec2num) + "ec2 names to be generated. ")
+    print ("you have selected " + str(ec2num) + " ec2 names to be generated. ")
 
 else:
     print ("you must select atleast 1 ec2 to be created.")
 
 #informing using that automatically generating ec2 names
+print()
 print ("now creating ec2 names based on your input")
 print ()
 
