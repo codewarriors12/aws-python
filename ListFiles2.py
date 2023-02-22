@@ -45,4 +45,6 @@ print ("you have total : " + str(len(list_files)) + " files.")
 
 # print the list of file in Json format and save the output into a filelist.json
 filedata = json.dumps(list_files, indent=4)
+print()
+print("now printing filedata in JSON: ")
 print(filedata)
